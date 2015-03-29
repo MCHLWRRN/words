@@ -1,4 +1,7 @@
 @charset "utf-8";
+@import "bourbon";
+@import "base/base"; /*Bitters needs to be imported before Neat */
+@import "neat";
 
 body {
   background: #d4d4d4 url("../images/background.png");
@@ -53,3 +56,5 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+@import "partials/layout";
