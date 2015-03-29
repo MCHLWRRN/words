@@ -7,3 +7,9 @@ gem "middleman-blog", "~> 3.5.3"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+group :development do 
+	gem 'middleman-livereload'
+end
+
+gem 'rack-contrib'
